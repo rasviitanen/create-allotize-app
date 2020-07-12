@@ -1,7 +1,7 @@
 {
-  "name": "hadal-plain-client",
+  "name": "create-hadal-app",
   "version": "0.1.0",
-  "description": "create an app with hadal",
+  "description": "Create an app with Hadal and React",
   "main": "src/index.jsx",
   "bin": {
     "hadal": ".bin/create-hadal-app.js"

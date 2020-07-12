@@ -11,17 +11,16 @@
   For example, you are able to build collaboration services such as a text editor without requiring servers or back-end code.
   </p>
 
-  ### [Web Page][hadal-page] | [Book][hadal-tutorial]
+  [Web Page][hadal-page] | [Book][hadal-tutorial]
 
   <sub>Built with 🦀🕸 by the Hadal Team</sub>
 
   <img height="32px" src="https://hadal.io/assets/wave.svg">
 </div>
 
-## Hadal-React-App
+## create-hadal-app
 This app is a simple demonstration on how to use Hadal in your own project.
 Note that Hadal is not yet stable enough to be used in production.
-The example app works best in Mozilla Firefox.
 
 Install the dependencies:
 ```
