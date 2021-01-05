@@ -12,13 +12,13 @@ if (process.argv.length >= 3) {
   }
 }
 
-const clone = spawn("git", ["clone", "https://github.com/rasviitanen/create-hadal-app", folderName]);
+const clone = spawn("git", ["clone", "https://github.com/rasviitanen/create-allotize-app", folderName]);
 
 clone.on("close", code => {
   if (code !== 0) {
     console.error("cloning the template failed!")
     process.exit(code);
   } else {
-    console.log("Thank you for downloading the Hadal template");
+    console.log("Thank you for downloading the Allotize template");
   }
 });

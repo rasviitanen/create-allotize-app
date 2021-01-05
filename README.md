@@ -1,26 +1,24 @@
 <div align="center">
-  <img align="center" height="64px" src="https://hadal.io/assets/hadal.svg">
+  <img align="center" height="64px" src="https://allotize.com/img/logo.svg">
   <br></br>
   
-  <strong>Hadal platform for building dynamic web apps
+  <strong>Allotize is platform for building dynamic web apps
   without server infrastructure.
   </strong>
   <br></br>  
   <p>
-  The purpose of Hadal project is to enable fast creation of web applications.
+  The purpose of the Allotize project is to enable fast creation of web applications.
   For example, you are able to build collaboration services such as a text editor without requiring servers or back-end code.
   </p>
 
-  [Web Page][hadal-page] | [Book][hadal-tutorial]
+  [Web Page][allotize-page] | [Docs][allotize-docs]
 
-  <sub>Built with 🦀🕸 by the Hadal Team</sub>
-
-  <img height="32px" src="https://hadal.io/assets/wave.svg">
+  <sub>Built with 🦀🕸 by the Allotize Team</sub>
 </div>
 
-## create-hadal-app
-This app is a simple demonstration on how to use Hadal in your own project.
-Note that Hadal is not yet stable enough to be used in production.
+## create-allotize-app
+This app is a simple demonstration on how to use Allotize in your own project.
+Note that Allotize is not yet stable enough to be used in production.
 
 Install the dependencies:
 ```
@@ -40,15 +38,15 @@ just additional tabs.
 
 Happy coding!
 
-## About Hadal
-Hadal is an attempt of building a data management pattern very much like Vuex/Redux, but where we are also able to share data/state/information with remote machines.
+## About Allotize
+Allotize is an attempt of building a data management pattern very much like Vuex/Redux, but where we are also able to share data/state/information with remote machines.
 The project is essentially composed of two major modules, a database and a P2P networking solution.
 
-[**📚 Read the tutorial! 📚**][hadal-tutorial]
+[**📚 Read the tutorial! 📚**][allotize-tutorial]
 
-This tutorial is designed for kickstarting your first Hadal application.
-Checkout the [API docs][hadal-docs] for a deep dive into the internals!
+This tutorial is designed for kickstarting your first Allotize application.
+Checkout the [Docs][allotize-docs] for a deep dive!
 
-[hadal-page]: https://hadal.io/page
-[hadal-tutorial]: https://hadal.io/book
-[hadal-docs]: https://hadal.io/internal/doc/hadal
+[allotize-page]: https://allotize.com
+[allotize-tutorial]: https://docs.allotize.com/tutorial/index.html
+[allotize-docs]: https://docs.allotize.com
