@@ -1,6 +1,5 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { useAllotize } from "../hooks/allotize";
-import { subscribe } from "allotize-js";
 import { sectionStyle, columnStyle, rowStyle, btnStyle } from "../style/style";
 
 const counterStyle = {
@@ -15,12 +14,6 @@ export function Counter() {
             count: 0,
         },
     });
-
-    useEffect(() => {
-        subscribe(`counter`, (e) => {
-            console.log("got counter event", e);
-        });
-    }, []);
 
     const increment = () => {
         setState({

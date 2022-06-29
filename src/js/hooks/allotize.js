@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
-import { Data } from "allotize-js";
+import { Allotize } from "allotize-js";
 
 const allotizeDataStore = {};
 
 export function useAllotize(data) {
     if (allotizeDataStore[data.route] == null) {
-        allotizeDataStore[data.route] = Data({
+        allotizeDataStore[data.route] = Allotize.Data({
             route: data.route,
             ...data.config,
             data: {

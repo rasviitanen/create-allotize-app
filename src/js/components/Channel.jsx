@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from "react";
-import { useAllotize } from "../hooks/allotize";
-import { subscribe, BoundedChannel } from "allotize-js";
+import { Allotize } from "allotize-js";
 import { sectionStyle, rowStyle } from "../style/style";
 
-const channel = new BoundedChannel("myChannel", 3);
+const channel = Allotize.BoundedChannel({ route: "myChannel", size: 3 });
 
 export function Channel() {
     const [text, setText] = useState("");

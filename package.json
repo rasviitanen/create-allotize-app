@@ -28,7 +28,7 @@
   },
   "homepage": "https://allotize.com/",
   "dependencies": {
-    "allotize-js": "link:../web/allotize-js",
+    "allotize-js": "^0.0.2",
     "core-js": "^3.14.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",

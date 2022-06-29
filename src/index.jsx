@@ -8,6 +8,7 @@ import { Meta } from "./js/components/Meta.jsx"
 import { Text } from "./js/components/Text.jsx"
 import { Toc } from "./js/components/Toc.jsx"
 import { Query } from "./js/components/Query.jsx"
+import { Subscribe } from "./js/components/Subscribe.jsx"
 
 class App extends React.Component {
   render() {
@@ -17,6 +18,7 @@ class App extends React.Component {
         <br></br>
         <h2>App</h2>
         <Counter></Counter>
+        <Subscribe></Subscribe>
         <Channel></Channel>
         <Text></Text>
         <h2>Query</h2>

@@ -6,8 +6,8 @@ export function Text() {
   const [state, setState] = useAllotize({
     route: `text`,
     config: {
-      persist: false,
-      throttleInterval: 500 /* Send at most half second */
+      persist: false, // Do don't perist state between sessions
+      throttleInterval: 500 // Send at most every half second
     },
     data: {
       content: "", // initial state
