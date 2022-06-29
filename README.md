@@ -17,17 +17,20 @@
 </div>
 
 ## create-allotize-app
+
 This app is a simple demonstration on how to use Allotize in your own project.
 Note that Allotize is not yet stable enough to be used in production.
 
 Install the dependencies:
+
 ```
-npm install
+yarn
 ```
 
 Run the application:
+
 ```
-npm run start
+yarn start
 ```
 
 Visit the application at `localhost:8080`.
@@ -39,6 +42,7 @@ just additional tabs.
 Happy coding!
 
 ## About Allotize
+
 Allotize is an attempt of building a data management pattern very much like Vuex/Redux, but where we are also able to share data/state/information with remote machines.
 The project is essentially composed of two major modules, a database and a P2P networking solution.
 
